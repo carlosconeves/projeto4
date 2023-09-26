@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent van Gogh</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vincent van Gogh</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#obras">Obras</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="biografia">
+            <h2>Biografia</h2>
+            <!-- Adicione o conteúdo da biografia aqui -->
+        </section>
+
+        <section id="obras">
+            <h2>Obras</h2>
+            <!-- Adicione informações sobre as obras aqui -->
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <!-- Adicione uma galeria de imagens aqui -->
+        </section>
+    </main>
+
+    <div>
+        <fieldset>
+            <legend>PREENCHA SUA LISTA</legend>
+            <label for="firstname" nome></label>
+            <input type="text" name="firstname">
+            <label type="lastname" Sobrenome:></label>
+            <input type="text" name="lastname">
+        </fieldset>
+    </div>
+
+    <div>
+        <label for="flavor" Escolha o sabor:></label>
+        <input type="text" list="flavor">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div>
+        <label for="password"> Digite sua senha:</label>
+        <input type="password" name="password">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <label for="car_model">Escolha o modelo do seu carro:</label>
+        <div class="radio">
+            <input type="radio" value="BMW" name="car_model">
+            <label for="BMW">BMW</label>
+        </div>
+
+        <div>
+            <div class="radio">
+                <input type="radio" value="Peugeot" name="car_model">
+                <label for="Peugeot">Peugeot</label>
+            </div>
+
+
+            <div>
+                <div class="radio">
+                    <input type="radio" value="fusca" name="car_model">
+                    <label for="fusca">fusca</label>
+                </div>
+
+                <!-- 15 -->
+                <br>
+                <br>
+                <div>
+                    <label for="optionals">Opicionais do carro:</label>
+                    <div class="radio">
+                        <input type="checkbox" name="optionals[]" value="big_tires">
+                        <label for="big_tires">Pneus Grandes</label>
+                    </div>
+
+                    <div>
+                        <div class="radio">
+                            <input type="checkbox" name="optionals[]" value="turbo_engines">
+                            <label for="turbo_engines">Motor Turbo</label>
+                        </div>
+
+                        <div>
+                            <div class="radio">
+                                <input type="checkbox" name="optionals[]" value="hybrid">
+                                <label for="hybrid">Hibrido</label>
+                            </div>
+                            
+                            <!-- 16 -->
+                            <div>
+                                <label for="birthday">Data de nascimento:</label>
+                                <input type="date" name="birthday">
+                            </div>
+
+                            <!--17-->
+                            <div>
+                                <label for="image">Insira sua imagem</label>
+                                <input type="file" name="image">
+                            </div>
+
+                            <!-- 18 -->
+                            <div>
+                                <label for="salario">Quanto é o seu salario</label>
+                                <input type="number" name="salario">
+                            </div>
+
+                            <!--19-->
+                            <div>
+                                <label for="email">Digite seu email</label>
+                                <input type="email" name="email">
+                            </div>
+
+                            <!--20-->
+                            <div>
+                                <label for="value">Digite um valor</label>
+                                <input type="text" value="10 reais" name="value">
+                            </div>
+
+                            <!--21-->
+                            <div>
+                                <p>Tente mudar o valor:</p>
+                                <input type="text" value="Nao consegue" disabled>
+                            </div>
+
+                            <!--22-->
+                            <div>
+                                <label for="currentjob">Digite sua profissao</label>
+                                <input type="text" name="currentjob" placeholder="No que voce trabalha atualmente">
+                            </div>
+                            <br>
+
+                            <!--23-->
+                            <div>
+                                <label for="requied">Digite algo:</label>
+                                <input type="text" placeholder="ano de nascimento" required>
+                            </div>                         
+                            <footer>
+                                <p>&copy; Carlos 2023</p>
+                            </footer>
+</body>
+
+</html>
